@@ -1,0 +1,10 @@
+images/
+middleware/
+models/
+node_modules/
+routes/
+views/
+.env
+package-lock.json
+package.json
+server.json
