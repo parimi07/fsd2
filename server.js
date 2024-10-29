@@ -14,6 +14,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/images', express.static('images'));
+app.use(express.static('public'));
 // EJS setup
 app.set('view engine', 'ejs');
 app.set('views', './views'); // Path to your EJS files
