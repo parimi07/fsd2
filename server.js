@@ -34,22 +34,22 @@ app.get('/', (req, res) => {
 });
 
 // Shop route
-app.get('/shop', (req, res) => {
+app.get('/api/shop', (req, res) => {
     res.render('shop', { title: 'Shop' }); // Pass the title variable here
 });
 
 // View route
-app.get('/view', (req, res) => {
+app.get('/api/view', (req, res) => {
     res.render('view'); // Pass the title variable here
 });
 
 // About Us route
-app.get('/about_us', (req, res) => {
+app.get('/api/about_us', (req, res) => {
     res.render('about_us', { title: 'About Us' }); // Pass the title variable here
 });
 
 // Contact Us route
-app.get('/contact_us', (req, res) => {
+app.get('/api/contact_us', (req, res) => {
     res.render('contact_us', { title: 'Contact Us' }); // Pass the title variable here
 });
 
